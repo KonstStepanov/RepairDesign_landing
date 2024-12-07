@@ -1,4 +1,5 @@
-.hero {
+/* APPLICATION SECTION */
+.application {
   background-image: url("../images/header_main.png");
   background-size: cover;
 }
@@ -10,11 +11,6 @@
 .image-container {
   margin: 0;
   padding: 0;
-  width: 1440px;
-  height: 707px;
-}
-
-.image-container__background {
   width: 1440px;
   height: 707px;
 }
@@ -65,41 +61,28 @@
   filter: drop-shadow(0 5px 15px rgba(227, 184, 115, 0.3));
 }
 
-.input {
+/* COMPLETED SECTION */
+.completed {
+  background-color: var(--background-color-dark);
+}
+
+.completed-container {
+  width: 1440px;
+  height: 1074px;
+}
+
+.completed-container__item {
+  background-color: red;
   display: flex;
-  flex-flow: column;
-  width: 231px;
-  height: 45px;
-  margin: 0;
-  padding: 0;
+  flex-flow: row;
+  width: 1171px;
+  height: 522px;
+  padding: 107px 134px 0 134px;
 }
 
-.label {
-  color: #363636;
-  opacity: 50%;
-  height: 12px;
-  font-size: 13px;
-  margin-bottom: 7px;
-}
-
-.field {
-  font-size: 14px;
-  opacity: 100%;
-  margin-bottom: 8px;
-  border: none;
-  outline: none;
-  padding: 0;
-}
-
-::placeholder {
-  height: 17px;
-  line-height: 163%;
-  color: #363636;
-}
-
-.line {
-  max-height: 1px;
-  height: 100%;
-  background-color: #363636;
-  opacity: 30%;
+.completed-container__item_text {
+  background-color: brown;
+  width: 442px;
+  height: 390px;
+  margin: 45px 50px 87px 0;
 }

@@ -1,8 +1,3 @@
-.body {
-  margin: 0;
-  font-family: var(--font-family-nunito);
-}
-
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
