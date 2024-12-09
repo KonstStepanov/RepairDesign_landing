@@ -80,3 +80,37 @@
   background-color: #363636;
   opacity: 30%;
 }
+
+input[type="checkbox"].check {
+  appearance: none;
+  background-color: #e3b873;
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type="checkbox"].check:checked {
+  background-color: #e3b873;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+input[type="checkbox"].check:checked::after {
+  content: "✔";
+  color: white;
+  font-weight: bold;
+}
+
+label {
+  margin-left: 8px;
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+}
