@@ -1,0 +1,64 @@
+.application {
+  background-image: url("../images/hero_main.png");
+  background-size: cover;
+  min-width: 1600px;
+  width: 100%;
+}
+
+.background {
+  background-color: var(--background-opacity);
+}
+
+.image-container {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 707px;
+}
+
+.image-container__items {
+  padding: 194px 630px 208px 134px;
+  width: 676px;
+  height: 35px;
+}
+
+.image-container__title {
+  width: 630px;
+  height: 105px;
+  margin: 0;
+  color: var(--text-color-white);
+  font-size: 40px;
+}
+
+.image-container__title::after {
+  content: " ROSTOV-ON-DON";
+  color: var(--primary-color);
+}
+
+.image-container__text {
+  width: 504px;
+  height: 89px;
+  color: var(--text-color-white);
+  font-size: 22px;
+  line-height: 163%;
+  text-align: left;
+  margin: 19px 0 41px 0;
+}
+
+.button__transparent {
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: var(--text-color-white);
+  border-width: 1px;
+  font-style: italic;
+  stroke: var(--text-color-white);
+  stroke-width: 2px;
+}
+
+.button__transparent:active {
+  border-style: outset;
+}
+
+.button__shadow {
+  filter: drop-shadow(0 5px 15px rgba(227, 184, 115, 0.3));
+}

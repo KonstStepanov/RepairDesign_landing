@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540&family=Yeseva+One&display=swap");
+
+/* COMMON VARIABLES */
+:root {
+  --primary-color: #e3b873;
+  --text-color-white: #ffffff;
+  --background-color-dark: #131313;
+  --background-opacity: rgba(0, 0, 0, 0.7);
+  --font-family-nunito: "Nunito Sans Regular", sans-serif;
+  --font-family-yeseva: "Yeseva One Regular", serif;
+}
+
+.body {
+  margin: 0;
+  font-family: var(--font-family-nunito);
+}
+
+.button {
+  cursor: pointer;
+  width: 207px;
+  height: 51px;
+  background-color: var(--primary-color);
+  font-family: var(--font-family-nunito);
+  color: var(--text-color-white);
+  font-size: 11px;
+  border-radius: 2px;
+  border-width: 0;
+}
+
+.title {
+  font-family: var(--font-family-yeseva);
+  line-height: 132%;
+  color: var(--text-color-white);
+  text-align: left;
+}
+
+.subtitle {
+  font-family: var(--font-family-yeseva);
+  font-size: 20px;
+  color: var(--text-color-white);
+  line-height: 138.6%;
+  background-color: black;
+}
+
+.input {
+  display: flex;
+  flex-flow: column;
+  width: 231px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  color: #363636;
+  opacity: 50%;
+  height: 12px;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.field {
+  font-size: 14px;
+  opacity: 100%;
+  margin-bottom: 8px;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+::placeholder {
+  height: 17px;
+  line-height: 163%;
+  color: #363636;
+}
+
+.line {
+  max-height: 1px;
+  height: 100%;
+  background-color: #363636;
+  opacity: 30%;
+}
+
+input[type="checkbox"].check {
+  appearance: none;
+  background-color: #e3b873;
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type="checkbox"].check:checked {
+  background-color: #e3b873;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+input[type="checkbox"].check:checked::after {
+  content: "✔";
+  color: white;
+  font-weight: bold;
+}
+
+label {
+  margin-left: 8px;
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+}
